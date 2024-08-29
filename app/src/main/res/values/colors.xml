@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="purple_200">#46B3B9</color>
+    <color name="purple_500">#46B3B9</color>
+    <color name="purple_700">#46B3B9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent_black">#66000000</color>
+    <color name="colorPrimary">@color/app_color</color>
+    <color name="colorPrimaryDark">#46B3B9</color>
+    <color name="colorAccent">#46B3B9</color>
+    <color name="color_ice_cream">#F0F2F5</color>
+    <color name="normalcolor">#009926</color>
+    <color name="errorcolor">#b90609</color>
+    <color name="app_color">#3C763D</color>
+    <color name="text_color">#808184</color>
+
+
+
+
+
+
+
+    <!--welcome screen-->
+    <color name="loginbutton">#509c97</color>
+    <color name="registerbutton">#0d3848</color>
+    <color name="transperent">#00ffffff</color>
+    <color name="facebookbutton">#3b5998</color>
+    <color name="googlebutton">#f34a38</color>
+    <color name="lightprimary">#f3f9fa</color>
+
+
+    <color name="youtube">#FF0000</color>
+    <!--introduction slider-->
+    <color name="selecteddot">#0d3848</color>
+    <color name="unselecteddot">#aa0d3848</color>
+    <array name="activiteddot">
+        <item>@color/selecteddot</item>
+        <item>@color/selecteddot</item>
+        <item>@color/selecteddot</item>
+        <item>@color/selecteddot</item>
+    </array>
+    <array name="inactiveteddot">
+        <item>@color/unselecteddot</item>
+        <item>@color/unselecteddot</item>
+        <item>@color/unselecteddot</item>
+        <item>@color/unselecteddot</item>
+    </array>
+    <color name="screen1">#12cad4</color>
+    <color name="screen2">#52c5f2</color>
+    <color name="screen3">#f26051</color>
+    <color name="screen4">#ffc851</color>
+    <color name="colorGrayShadow">#20000000</color>
+    <color name="brightorragne">#ff9827</color>
+    <color name="green">#009926</color>
+    <color name="dark_green">#3C763D</color>
+    <color name="gray">#9e9d9d</color>
+    <color name="lightgray">#e1e0e0</color>
+    <color name="lightgray2">#F3EFEF</color>
+    <color name="lightgray1">#bde1e0e0</color>
+
+    <color name="lighttheme">#145467</color>
+    <color name="dashline">#97c5c2</color>
+    <color name="dashbackground">#e5f1f0</color>
+    <color name="darktheme">#145467</color>
+    <color name="referback">#0381ff</color>
+
+
+    <!--multiple file selection color-->
+    <color name="multiple_image_select_primary">#2E7D32</color>
+    <color name="multiple_image_select_primaryDark">#1B5E20</color>
+    <color name="multiple_image_select_primaryLight">#C8E6C9</color>
+    <color name="multiple_image_select_accent">#4CAF50</color>
+
+    <color name="multiple_image_select_primaryText">#212121</color>
+    <color name="multiple_image_select_secondaryText">#727272</color>
+    <color name="multiple_image_select_divider">#B6B6B6</color>
+
+    <color name="multiple_image_select_toolbarPrimaryText">#FFFFFF</color>
+
+    <color name="multiple_image_select_albumTextBackground">#99FFFFFF</color>
+    <color name="multiple_image_select_imageSelectBackground">#000000</color>
+
+
+    <color name="lightred">#a94442</color>
+    <color name="kycaknowlege">#31708f</color>
+    <color name="kycacknowlge">#d9edf7</color>
+    <color name="lightredbackground">#f2dede</color>
+    <color name="ordersuccess">#3c763d</color>
+
+
+
+    //////////////payment sdk////////////////////////////
+
+
+    <color name="paymentsdk_color_black">#000000</color>
+    <color name="paymentsdk_color_blue">#36485F</color>
+    <color name="paymentsdk_color_green">#4AAE4A</color>
+    <color name="paymentsdk_color_grey">#808080</color>
+    <color name="paymentsdk_color_grey_dark">#737373</color>
+    <color name="paymentsdk_color_grey_light">#DEDEDE</color>
+    <color name="paymentsdk_color_grey_lighter">#C9C9C9</color>
+    <color name="paymentsdk_color_grey_medium">#A3A3A3</color>
+    <color name="paymentsdk_color_primary">#75C9B7</color>
+    <color name="paymentsdk_color_red">#FF0000</color>
+    <color name="paymentsdk_color_white">#FFFFFF</color>
+    <color name="paymentsdk_color_yellow">#eed280</color>
+    <color name="paymentsdk_color_yellow_light">#fbe191</color>
+    <color name="light_grays">#15000000</color>
+    <color name="sky_blue">#DBDFFD</color>
+    <color name="light_g">#03000000</color>
+    <color name="blue">#5013FF</color>
+    <color name="g_card_background">#FAFDFF</color>
+    <color name="g_blue_gray200">#97AABD</color>
+    <color name="g_gray500">#969899</color>
+    <color name="g_gray700">#666666</color>
+    <color name="g_line">#E9EAEC</color>
+    <color name="colorScreenBackground">#E7E9F5</color>
+    <color name="color_secondry">#CFD4EA</color>
+    <color name="color_boxcolor">#E7E9F5</color>
+    <color name="color_dash_boxcolor">#D3DAE8</color>
+
+    <color name="color_dark_gray">#404145</color>
+
+    <color name="color_logo">@color/black</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="offcolorAccent">#9d509c97</color>
+    <color name="chatLeftBubble">#c0e4e1</color>
+
+    <color name="opecitywhite">#ffffff</color>
+    <color name="offwhites">#eaeaea</color>
+    <color name="offwhitetrans">#6a060606</color>
+    <color name="offwhite">#80FFFFFF</color>
+
+    <color name="black_text">#333333</color>
+    <color name="black_secondary_text">#676767</color>
+    <color name="black_40">#99000000</color>
+    <color name="bottommenu">#6a818a</color>
+    <color name="fab_menu_icon">#F7F9F9</color>
+    <color name="color_gray_line">#DEE1E6</color>
+    <color name="color_gray_shade">#77838F</color>
+    <color name="color_yellow">#F9C521</color>
+    <color name="color_light_silver">#EFEFEF</color>
+
+
+    <color name="diyaFlame">#ffbe0b</color>
+    <color name="diyaGrey">#808080</color>
+    <color name="diyaBorder">#ffbe0b</color>
+    <color name="diya">#ffbe0b</color>
+    <color name="grayish_blue">#8d99ae</color>
+
+
+
+
+
+
+
+</resources>

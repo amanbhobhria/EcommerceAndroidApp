@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dm Global</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="increase_quantity">Increase_quantity</string>
+    <string name="decrease_quantity">Decrease_quantity</string>
+</resources>
