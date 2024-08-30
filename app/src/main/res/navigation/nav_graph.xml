@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.pharmaecomapp.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_profileFragment2"
+            app:destination="@id/profileFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_ordersFragment2"
+            app:destination="@id/ordersFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ordersFragment2"
+        android:name="com.example.pharmaecomapp.fragment.OrdersFragment"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" >
+        <action
+            android:id="@+id/action_ordersFragment2_to_orderDetailFragment2"
+            app:destination="@id/orderDetailFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderDetailFragment2"
+        android:name="com.example.pharmaecomapp.fragment.OrderDetailFragment"
+        android:label="fragment_order_detail"
+        tools:layout="@layout/fragment_order_detail" />
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.pharmaecomapp.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment2_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+
+
+</navigation>
