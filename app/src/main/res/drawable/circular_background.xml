@@ -1,0 +1,15 @@
+<!-- res/drawable/circular_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+<!--    <solid android:color="#FFFFFF"/> &lt;!&ndash; Background color (white) &ndash;&gt;-->
+    <stroke
+        android:width="2dp"
+        android:color="@color/black_secondary_text"
+        /> <!-- Border color (green) -->
+
+    <size
+        android:width="100dp"
+        android:height="100dp" /> <!-- Size of the circular background -->
+
+</shape>

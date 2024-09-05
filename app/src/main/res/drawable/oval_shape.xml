@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Fill color for the oval shape -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Border color and width for the oval shape -->
+    <stroke
+        android:width="0.2dp"
+        android:color="#B6D6C4" />
+</shape>
